@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size:16px ;
+    color:rgba(0, 0, 0, 0.87);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.topbar{
+    background-color: rgb(18, 41, 67);
+}
+.topbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.topbar-logo{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding: 11px 0;
+}
+.topbar-nav{
+    text-align: center;
+    padding-bottom: 16px;
+}
+.topbar-nav a{
+    display: inline-block;
+    margin: 0 12px;
+    color: rgba(255, 255, 255, 0.67);
+    transition: color .3s;
+}
+.topbar-nav a:hover,
+.topbar-nav a.active{
+color: white;
+}
